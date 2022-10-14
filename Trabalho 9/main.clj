@@ -5,7 +5,7 @@
 ;mesma finalidade na linguagem Clojure.  
 
 (defn ultimo [lst] 
-    first (last lst))
+     (last lst))
 
 (println "ultimo: entrada: [1 2 3] ; resultado: " (ultimo [1 2 3]))
 (println "ultimo: entrada: [3 2 1] ; resultado: " (ultimo [3 2 1]))
