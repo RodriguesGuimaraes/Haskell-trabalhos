@@ -8,7 +8,7 @@
 
 # Esse devo pedir desculpa, pois a forma de mostrar ele(->)
 # ficou grande na formatação solicitada, então ocupa 2 linhas
-
+#                                                    passe uma lista de valores menores que o meu atual     + Valor atual + passe uma lista de valores maiores que o meu atual
 OrdenaAlunos = lambda lista: [] if lista == [] else OrdenaAlunos([x for x in lista[1:] if x[1] < lista[0][1]]) + [lista[0]] + OrdenaAlunos([x for x in lista[1:] if x[1] >= lista[0][1]])
 
 
